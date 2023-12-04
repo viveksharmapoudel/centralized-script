@@ -93,14 +93,16 @@ fi
 
 
 case "$CMD" in
-deploy-contract )
-    deployContract
-;;
-send-message )
-    sendMessage
-;;
-*)
-    echo "Error: unknown command: $CMD"
-    usage
+	deploy-contract )
+	    deployContract
+	;;
+
+	send-message )
+	    sendMessage
+	;;
+	
+	*)
+    	echo "Error: unknown command: $CMD"
+    	usage
     ;;
 esac
