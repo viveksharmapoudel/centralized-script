@@ -16,7 +16,7 @@ ENV=./env
  ICON_BRIDGE_CONTRACT="./centralized-connection-0.1.0-optimized.jar"
  ICON_NODE="http://localhost:9082/api/v3"
  ICON_NETWORK_ID=3
- ICON_WALLET=iconWallet.json
+ ICON_WALLET=./iconWallet.json
  ICON_WALLET_PASSWORD=gochain
  STEP_LIMIT=10000000
  
