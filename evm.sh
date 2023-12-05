@@ -25,7 +25,6 @@ function sendMessage(){
     contract_address=$(cat $EVM_BRIDGE_CONTRACT)
     cd $EVM_CONTRACT_DIRECTORY
     local action="cast send $contract_address \"sendMessage(string,string,int256,bytes)\" \"hi\" \"hello\" 123 0x7b7d --private-key $EVM_PRIVATE_KEY"
-    # echo $action
     cd -
 }
 

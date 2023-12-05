@@ -100,7 +100,6 @@ case "$CMD" in
 	send-message )
 	    sendMessage
 	;;
-	
 	*)
     	echo "Error: unknown command: $CMD"
     	usage

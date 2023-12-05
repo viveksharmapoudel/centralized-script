@@ -13,7 +13,7 @@ ENV=./env
  BRIDGE_CONTRACT_ADDRESS_FILE=$ICON_ENV/.bridgeContract
 
 
- ICON_BRIDGE_CONTRACT="/Users/viveksharmapoudel/my_work_bench/ibriz/ibc-related/xcall-multi/contracts/javascore/example-dapps/centralized-connection/build/libs/centralized-connection-0.1.0-optimized.jar"
+ ICON_BRIDGE_CONTRACT="./centralized-connection-0.1.0-optimized.jar"
  ICON_NODE="http://localhost:9082/api/v3"
  ICON_NETWORK_ID=3
  ICON_WALLET=/Users/viveksharmapoudel/keystore/ibc-icon/godWallet.json
